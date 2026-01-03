@@ -20,6 +20,7 @@ interface Product {
   image: string;
   sizes?: string[];
   colors?: string[];
+  description?: string;
 }
 
 const products: Product[] = [
@@ -38,7 +39,7 @@ const products: Product[] = [
   { id: 'o2', name: 'Брелок Стандарт', price: 500, category: 'Другое', exclusive: false, image: '/placeholder.svg', colors: ['Черный'] },
   { id: 'o3', name: 'Брелок Баста', price: 5000, category: 'Другое', exclusive: true, image: '/placeholder.svg', colors: ['Золото'] },
   { id: 'set1', name: 'Набор Стандарт', price: 20000, category: 'Другое', exclusive: false, image: '/placeholder.svg', colors: ['Микс'] },
-  { id: 'set2', name: 'Набор Премиум', price: 100000, category: 'Другое', exclusive: true, image: 'https://cdn.poehali.dev/files/Screenshot_20260103-140157.png', colors: ['Микс'] },
+  { id: 'set2', name: 'Набор Премиум', price: 100000, category: 'Другое', exclusive: true, image: 'https://cdn.poehali.dev/files/Screenshot_20260103-140157.png', colors: ['Микс'], description: 'В наборе: рюкзак BASTET, карточка в игру Moon Fighting на 20 миллионов с секретным персонажем, футболка 1/2 в мире, ковёр с логотипом, полотенце, часы BASTET, телефон CMF Phone 2 Pro с росписью' },
 ];
 
 export default function Index() {
@@ -255,6 +256,11 @@ export default function Index() {
                   <div className="p-4">
                     <h3 className="font-semibold mb-1">{product.name}</h3>
                     <p className="text-2xl font-bold mb-3">{product.price.toLocaleString()} ₽</p>
+                    {product.description && (
+                      <p className="text-xs text-muted-foreground mb-3 leading-relaxed">
+                        {product.description}
+                      </p>
+                    )}
                     {product.sizes && (
                       <p className="text-xs text-muted-foreground mb-2">
                         Размеры: {product.sizes.join(', ')}
