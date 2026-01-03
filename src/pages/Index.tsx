@@ -26,7 +26,7 @@ const products: Product[] = [
   { id: 'm1', name: 'Футболка Классика', price: 5000, category: 'Мужское', exclusive: false, image: '/placeholder.svg', sizes: ['S', 'M', 'L', 'XL'], colors: ['Черный', 'Белый'] },
   { id: 'm2', name: 'Футболка Премиум', price: 5000, category: 'Мужское', exclusive: false, image: '/placeholder.svg', sizes: ['S', 'M', 'L', 'XL'], colors: ['Черный'] },
   { id: 'm3', name: 'Футболка Дизайн', price: 5000, category: 'Мужское', exclusive: false, image: '/placeholder.svg', sizes: ['M', 'L', 'XL'], colors: ['Белый'] },
-  { id: 'm4', name: 'Футболка Графика', price: 5000, category: 'Мужское', exclusive: false, image: '/placeholder.svg', sizes: ['S', 'M', 'L'], colors: ['Черный'] },
+  { id: 'm4', name: 'Часы BASTET Empire Times', price: 5000, category: 'Мужское', exclusive: false, image: 'https://cdn.poehali.dev/files/Screenshot_20260102-211916.png', colors: ['Черный'] },
   { id: 'm5', name: 'Худи с капюшоном', price: 15000, category: 'Мужское', exclusive: true, image: '/placeholder.svg', sizes: ['M', 'L', 'XL'], colors: ['Черный'] },
   { id: 'm6', name: 'Футболка Лимитед', price: 5000, category: 'Мужское', exclusive: true, limited: 50, image: '/placeholder.svg', sizes: ['S', 'M', 'L', 'XL'], colors: ['Черный', 'Белый'] },
   { id: 'm7', name: 'Джинсы Классик', price: 100000, category: 'Мужское', exclusive: false, image: '/placeholder.svg', sizes: ['30', '32', '34', '36'], colors: ['Синий'] },
