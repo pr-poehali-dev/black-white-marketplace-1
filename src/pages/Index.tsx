@@ -38,7 +38,7 @@ const products: Product[] = [
   { id: 'o2', name: 'Брелок Стандарт', price: 500, category: 'Другое', exclusive: false, image: '/placeholder.svg', colors: ['Черный'] },
   { id: 'o3', name: 'Брелок Баста', price: 5000, category: 'Другое', exclusive: true, image: '/placeholder.svg', colors: ['Золото'] },
   { id: 'set1', name: 'Набор Стандарт', price: 20000, category: 'Другое', exclusive: false, image: '/placeholder.svg', colors: ['Микс'] },
-  { id: 'set2', name: 'Набор Премиум', price: 50000, category: 'Другое', exclusive: true, image: '/placeholder.svg', colors: ['Микс'] },
+  { id: 'set2', name: 'Набор Премиум', price: 100000, category: 'Другое', exclusive: true, image: 'https://cdn.poehali.dev/files/Screenshot_20260103-140157.png', colors: ['Микс'] },
 ];
 
 export default function Index() {
