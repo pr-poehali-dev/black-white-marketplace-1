@@ -31,7 +31,7 @@ const products: Product[] = [
   { id: 'm6', name: 'Футболка Лимитед', price: 5000, category: 'Мужское', exclusive: true, limited: 50, image: '/placeholder.svg', sizes: ['S', 'M', 'L', 'XL'], colors: ['Черный', 'Белый'] },
   { id: 'm7', name: 'Джинсы Классик', price: 100000, category: 'Мужское', exclusive: false, image: '/placeholder.svg', sizes: ['30', '32', '34', '36'], colors: ['Синий'] },
   { id: 'm8', name: 'Полотенце с логотипом', price: 2000, category: 'Мужское', exclusive: false, image: '/placeholder.svg', colors: ['Белый'] },
-  { id: 'w1', name: 'Худи Ёлочка', price: 15000, category: 'Женское', exclusive: true, image: '/placeholder.svg', sizes: ['XS', 'S', 'M', 'L'], colors: ['Черный'] },
+  { id: 'w1', name: 'Худи Ёлочка', price: 15000, category: 'Женское', exclusive: true, image: 'https://cdn.poehali.dev/projects/7738232e-9147-4f64-ba2b-4ee1f1b8edb7/files/e1ef76f1-bb53-4d88-ac4f-362d068bd960.jpg', sizes: ['XS', 'S', 'M', 'L'], colors: ['Черный'] },
   { id: 'w2', name: 'Платье Эксклюзив', price: 100000, category: 'Женское', exclusive: true, image: '/placeholder.svg', sizes: ['XS', 'S', 'M'], colors: ['Черный', 'Белый'] },
   { id: 'w3', name: 'Часы Премиум', price: 100000, category: 'Женское', exclusive: true, image: '/placeholder.svg', colors: ['Серебро', 'Золото'] },
   { id: 'o1', name: 'Шоппер', price: 2500, category: 'Другое', exclusive: false, image: '/placeholder.svg', colors: ['Черный', 'Белый'] },
