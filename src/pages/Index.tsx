@@ -24,7 +24,7 @@ interface Product {
 }
 
 const products: Product[] = [
-  { id: 'm1', name: 'Футболка Классика', price: 5000, category: 'Мужское', exclusive: false, image: '/placeholder.svg', sizes: ['S', 'M', 'L', 'XL'], colors: ['Черный', 'Белый'] },
+  { id: 'm1', name: 'Футболка Классика', price: 5000, category: 'Мужское', exclusive: false, image: 'https://cdn.poehali.dev/files/Screenshot_20260103-131916.png', sizes: ['S', 'M', 'L', 'XL'], colors: ['Черный', 'Белый'] },
   { id: 'm2', name: 'Футболка Премиум', price: 5000, category: 'Мужское', exclusive: false, image: '/placeholder.svg', sizes: ['S', 'M', 'L', 'XL'], colors: ['Черный'] },
   { id: 'm3', name: 'Футболка Дизайн', price: 5000, category: 'Мужское', exclusive: false, image: '/placeholder.svg', sizes: ['M', 'L', 'XL'], colors: ['Белый'] },
   { id: 'm4', name: 'Часы BASTET Empire Times', price: 5000, category: 'Мужское', exclusive: false, image: 'https://cdn.poehali.dev/files/Screenshot_20260102-211916.png', colors: ['Черный'] },
